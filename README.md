@@ -38,26 +38,22 @@ git clone https://github.com/USERNAME/finance-stock-portfolio.git
 cd finance-stock-portfolio
 ```
 
-```bash
-
 (Optional) Create a virtual environment
 
+```bash
 python -m venv venv
 source venv/bin/activate # macOS/Linux
 venv\Scripts\activate # Windows
 ```
 
-```bash
-
 Install dependencies
 
+```bash
 pip install -r requirements.txt
 ```
 
 ```bash
-
 Run the Flask app
-
 flask run
 ```
 
