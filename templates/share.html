@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Share
+{% endblock %}
+
+{% block main %}
+    <h2 style="color:blue;"> Here is the Share you looked after</h2>
+    <br>
+    <h2> Share : {{name}}</h2>
+    <br>
+    <h3 style="color:red;"> Price : {{price}}</h3>
+    <h3> Symbol : {{symbol}}</h3>
+
+    <!--form action="/share" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="symbol" name="symbol" placeholder="symbol" type="text">
+        </div>
+
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form-->
+{% endblock %}
